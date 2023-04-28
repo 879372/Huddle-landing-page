@@ -1,0 +1,91 @@
+.container{
+    height: 100%;
+    width: 100%;
+}
+
+.logo{
+    margin-top: 30px;
+    margin-left:30px;
+    margin-bottom: 40px;
+}
+
+div.conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px;;
+}
+
+.conteudo img{
+    height: 506px;
+    width: 709px;
+}
+
+.conteudo .informacoes{
+    margin-left: 50px;
+}
+
+.informacoes .titulo{
+    margin-right:  20px;
+    font-weight: 600;
+    font-size: 39px;
+}
+
+.informacoes p{
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+button{
+    color: hsl(257, 40%, 49%);
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    margin: 40px 0;
+    font-size: 18px;
+    
+}
+button:hover{
+    background-color: hsl(300, 69%, 71%) ;
+    color: #ffffff;
+}
+a{
+    color: #ffffff;
+}
+
+a:hover{
+    opacity: 0.5;
+}
+
+.icones{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 80px;
+    
+    
+}
+
+.fa-facebook-f{
+    height: 30px;
+    padding: 5px;
+    border: solid 1px;
+    border-radius: 50px;
+    font-size: 50px;
+}
+
+.fa-twitter{
+    height: 30px;
+    padding: 6px;
+    border: solid 1px;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+.fa-instagram{
+    height: 30px;
+    padding: 5px;
+    border: solid 1px;
+    border-radius: 20px;
+    font-size: 35px;
+}

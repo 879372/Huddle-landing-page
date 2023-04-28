@@ -1,0 +1,46 @@
+@media (max-width: 375px){
+    body{
+        background: hsl(257, 40%, 49%) url(/src/images/bg-mobile.svg) no-repeat;
+        height: 100vh;
+    }
+    
+    .logo img{
+        height: auto;
+        width: 150px;
+    }
+    .conteudo{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .conteudo .informacoes{
+        text-align: center;
+        margin: 0;
+    }
+
+    .informacoes .titulo{
+        font-size: 24px;
+        margin: 30px 0;
+    }
+
+    .informacoes p{
+        font-size: 16px;
+    }
+
+    .conteudo img{
+        height: 200px;
+        width: auto;
+        margin-bottom: 30px;
+    }
+
+    .icones{
+        
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding-top: 60px;
+        padding-bottom: 50px;
+    }
+
+}
